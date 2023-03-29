@@ -65,3 +65,19 @@ a[href] {
 button {
     cursor: pointer;
 }
+
+.button {
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    background: var(--buttonBg);
+    transition: all 100ms ease-out;
+    &:hover {
+        border: 2px solid var(--orange);
+        background: transparent;
+        color: var(--orange);
+        font-weight: bold;
+    }
+}
