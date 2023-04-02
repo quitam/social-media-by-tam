@@ -81,3 +81,7 @@ button {
         color: var(--orange);
     }
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
