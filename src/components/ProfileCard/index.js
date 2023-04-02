@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Cover from '../../assets/images/cover.jpg';
-import Avatar from '../../assets/images/profileImg.jpg';
+import Avatar from '../../assets/images/luffy.jpg';
 
 import styles from './ProfileCard.module.scss';
 import classNames from 'classnames/bind';

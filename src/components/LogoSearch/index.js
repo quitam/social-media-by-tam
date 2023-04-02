@@ -11,8 +11,8 @@ const LogoSearch = () => {
         <div className={cx('logo-search')}>
             <img src={Logo} alt="Logo" />
             <div className={cx('search')}>
-                <input type="text" placeholder="#Explore" />
-                <div className={cx('s-icon')}>
+                <input type="text" placeholder="Search in TamMedia" />
+                <div className={cx('btn-search')}>
                     <FiSearch />
                 </div>
             </div>

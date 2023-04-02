@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-import Avatar from '../../assets/images/profileImg.jpg';
+import Avatar from '../../assets/images/luffy.jpg';
 import { FiImage, FiPlayCircle } from 'react-icons/fi';
 import { TfiLocationPin, TfiClose } from 'react-icons/tfi';
 

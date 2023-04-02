@@ -2,13 +2,14 @@
     display: flex;
     gap: 1rem;
     background-color: var(--cardColor);
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem 1rem;
     border-radius: 1.5rem;
     .avatar {
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
-        object-fit: cover;
+        object-fit: contain;
+        box-shadow: var(--profileShadow);
     }
 }
 
@@ -48,7 +49,7 @@
         color: var(--video);
     }
     .option:nth-of-type(3) {
-        color: var(--location);
+        color: var(--checkin);
     }
 }
 

@@ -6,6 +6,7 @@
     border-radius: 1.5rem;
     background: var(--cardColor);
     overflow: hidden;
+    user-select: none;
 }
 
 .profile-image {
@@ -22,7 +23,7 @@
         height: 10rem;
         border-radius: 50%;
         position: absolute;
-        object-fit: cover;
+        object-fit: contain;
         bottom: -5rem;
         box-shadow: var(--profileShadow);
     }
@@ -81,10 +82,10 @@
     text-align: center;
     span {
         font-weight: bold;
-        color: orange;
+        color: var(--primary);
         cursor: pointer;
         &:hover {
-            color: lighten($color: orange, $amount: 15%);
+            color: lighten($color: #38b6ff, $amount: 15%);
         }
     }
 }

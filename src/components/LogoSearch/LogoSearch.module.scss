@@ -1,6 +1,7 @@
 .logo-search {
     display: flex;
     gap: 1rem;
+    height: 40px;
 }
 
 .search {
@@ -12,11 +13,11 @@
         background-color: transparent;
         padding: 0 5px;
     }
-    .s-icon {
+    .btn-search {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(105deg, #f99827, #f95f35 100%);
+        background: linear-gradient(135deg, #5ce1e6, #38b6ff 100%);
         border-radius: 5px;
         padding: 7px;
         color: white;
@@ -24,7 +25,7 @@
         transition: all 0.3s;
         &:hover {
             scale: 1.1;
-            background: linear-gradient(35deg, #f99827, #f95f35 100%);
+            background: linear-gradient(45deg, #38b6ff, #5ce1e6 100%);
         }
     }
 }
