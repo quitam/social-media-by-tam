@@ -19,7 +19,7 @@
     overflow: hidden;
     color: var(--black);
     background: #f3f3f3;
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
 }
 
 .blur {
@@ -68,6 +68,7 @@ button {
     user-select: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 2px solid var(--primary);
     color: white;
     border-radius: 0.7rem;

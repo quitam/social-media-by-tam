@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { FiHeart, FiMessageSquare, FiSend } from 'react-icons/fi';
-import styles from './Post.module.scss';
+import styles from './PostCard.module.scss';
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
-const Post = ({ post }) => {
+const PostCard = ({ post }) => {
     return (
         <div className={cx('container')}>
             <img src={post.img} alt={post.name} className={cx('post-image')} />
@@ -31,4 +31,4 @@ const Post = ({ post }) => {
     );
 };
 
-export default Post;
+export default PostCard;
