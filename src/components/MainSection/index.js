@@ -1,13 +1,13 @@
 import React from 'react';
 
-import styles from './PostSection.module.scss';
+import styles from './MainSection.module.scss';
 import classNames from 'classnames/bind';
 import CreatePost from '../CreatePost';
 import ListPost from '../ListPost';
 
 const cx = classNames.bind(styles);
 
-const PostSection = () => {
+const MainSection = () => {
     return (
         <div className={cx('container')}>
             <CreatePost />
@@ -16,4 +16,4 @@ const PostSection = () => {
     );
 };
 
-export default PostSection;
+export default MainSection;
