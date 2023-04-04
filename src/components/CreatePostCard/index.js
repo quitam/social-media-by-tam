@@ -4,12 +4,12 @@ import Avatar from '../../assets/images/luffy.jpg';
 import { FiImage, FiPlayCircle } from 'react-icons/fi';
 import { TfiLocationPin, TfiClose } from 'react-icons/tfi';
 
-import styles from './CreatePost.module.scss';
+import styles from './CreatePostCard.module.scss';
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-const CreatePost = () => {
+const CreatePostCard = () => {
     const [image, setimage] = useState(null);
     const imageRef = useRef();
 
@@ -55,4 +55,4 @@ const CreatePost = () => {
     );
 };
 
-export default CreatePost;
+export default CreatePostCard;

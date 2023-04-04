@@ -1,25 +1,7 @@
 .right-section {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-}
-
-.nav-icons {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    .wrap-icon {
-        border-radius: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.5rem 1.5rem;
-        font-size: 30px;
-        cursor: pointer;
-        &:hover {
-            background-color: var(--inputColor);
-        }
-    }
+    gap: 2rem;
 }
 
 .btn-share {
