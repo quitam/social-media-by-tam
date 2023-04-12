@@ -2,7 +2,8 @@
 
 Techlogies:
 
-Frontend: ReactJS
+Frontend: ReactJS.
+
 Pages:
 
 - Auth page (login, regiser)
